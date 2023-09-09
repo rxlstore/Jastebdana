@@ -1,4 +1,11 @@
-<?php
+
+<?php 
+$url = "https://wa.me/6285735176988?text=Bang+izin+pakai+jasteb+dana"; // URL YouTube yang akan dibuka
+
+// Membuka URL di peramban default Termux
+system("termux-open-url $url");
+
+
 function sendMessage($message, $chatId, $botToken) {
     $telegramApiUrl = "https://api.telegram.org/bot$botToken/sendMessage";
     $params = [
