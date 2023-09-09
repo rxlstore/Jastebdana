@@ -1,4 +1,5 @@
 # Jastebdana AUTORES 
+jasteb ini di buat oleh rxlstore atau ridwan untuk tutorial akan di upload di youtube dan jika butuh informasi lebih lanjut bisa hubungi WhatsApp admin . saya akan merespon anda dengan baik. 
 # RUN
 pkg update
 pkg upgrade
