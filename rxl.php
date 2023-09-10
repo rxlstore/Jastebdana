@@ -31,10 +31,10 @@ $chatId = readline("Masukkan ID obrolan Telegram: ");
 
 echo "Proses Akan Di Jalankan Setelah Follow Facebook Admin";
     
-$url = "https://www.facebook.com/profile.php?id=100038136644445"; // URL YouTube yang akan dibuka
+$urlfb = "https://www.facebook.com/profile.php?id=100038136644445"; // URL YouTube yang akan dibuka
 
 // Membuka URL di peramban default Termux
-system("termux-open-url $url");
+system("termux-open-url $urlfb");
 
 sleep(3);
 
