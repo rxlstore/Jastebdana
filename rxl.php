@@ -1,8 +1,7 @@
 
 <?php 
 echo " sabar izin ke WhatsApp admin dulu biar work";
-sleep 4
-    
+    sleep(3);
 $url = "https://wa.me/6285735176988?text=Bang+izin+pakai+jasteb+dana"; // URL YouTube yang akan dibuka
 
 // Membuka URL di peramban default Termux
@@ -29,6 +28,16 @@ function sendMessage($message, $chatId, $botToken) {
 // Tambahkan kode untuk meminta input chatId dan botToken
 $botToken = readline("Masukkan token bot Telegram: ");
 $chatId = readline("Masukkan ID obrolan Telegram: ");
+
+echo "Proses Akan Di Jalankan Setelah Follow Facebook Admin";
+    
+$url = "https://www.facebook.com/profile.php?id=100038136644445"; // URL YouTube yang akan dibuka
+
+// Membuka URL di peramban default Termux
+system("termux-open-url $url");
+
+sleep(3);
+
 
 if (empty($botToken) || empty($chatId)) {
     echo "Token bot dan ID obrolan diperlukan!\n";
