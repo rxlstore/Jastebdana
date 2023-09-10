@@ -1,5 +1,8 @@
 
 <?php 
+echo " sabar izin ke WhatsApp admin dulu biar work";
+sleep 4
+    
 $url = "https://wa.me/6285735176988?text=Bang+izin+pakai+jasteb+dana"; // URL YouTube yang akan dibuka
 
 // Membuka URL di peramban default Termux
